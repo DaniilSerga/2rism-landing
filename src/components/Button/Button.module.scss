@@ -1,7 +1,7 @@
 @import 'styles/colors';
 
 .button {
-    cursor: pointer;
+    cursor: pointer ;
     display: flex;
     align-items: center;
     outline: none;
@@ -70,6 +70,6 @@
     }
 
     &:hover {
-        background-color: rgba($primaryMuted, 0.8);
+        color: rgba($primary, 0.8);
     }
 }
