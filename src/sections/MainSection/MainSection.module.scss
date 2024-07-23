@@ -1,0 +1,22 @@
+@import "styles/_colors";
+@import "styles/mixins";
+
+.container {
+    padding-bottom: 120px;
+    background: url("../../assets/mainBackground.webp"), $body;
+    background-position: bottom 200% center;
+    background-size: cover;
+    border-radius: 0 0 64px 64px;
+}
+
+.ctaContainer {
+    display: grid;
+    place-items: center;
+    gap: 32px;
+    padding: 184px 0;
+
+    & > h1 {
+        color: $white;
+        @include textHeading(48px, 62px);
+    }
+}

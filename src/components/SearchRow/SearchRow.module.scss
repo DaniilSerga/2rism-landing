@@ -1,0 +1,36 @@
+@import 'styles/colors';
+@import 'styles/mixins';
+
+.contentWrapper {
+    display: grid;
+    place-items: center;
+    padding: 0 110px;
+}
+
+.contentContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) auto;
+    align-items: center;
+    width: 100%;
+    padding: 8px;
+    border-radius: 12px;
+    background-color: $white;
+    @include maxWidth;
+}
+
+.itemContainer {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+}
+
+.description > p:first-of-type {
+    color: $bodyMuted;
+    @include textMedium(14px, 20px);
+}
+
+.description > p:last-of-type {
+    color: $body;
+    @include textMedium(16px, 24px);
+}

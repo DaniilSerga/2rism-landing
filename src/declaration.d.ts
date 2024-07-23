@@ -1,3 +1,6 @@
-declare module "*.scss";
-declare module "*.svg";
-declare module "*.webp";
+declare module '*.scss' {
+    const styles: {[className: string]: string};
+    export default styles;
+}
+declare module '*.svg';
+declare module '*.webp';

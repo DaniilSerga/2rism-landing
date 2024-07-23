@@ -1,13 +1,13 @@
-import "./App.scss";
+import React from 'react';
 
-import {Header} from "components";
-import React from "react";
+import {DestinationSection, MainSection} from 'sections';
 
 function App() {
     return (
-        <>
-            <Header />
-        </>
+        <main>
+            <MainSection />
+            <DestinationSection />
+        </main>
     );
 }
 
