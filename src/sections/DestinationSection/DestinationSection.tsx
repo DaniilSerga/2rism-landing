@@ -11,11 +11,13 @@ const DestinationSection: FC = () => {
         <section className={styles.sectionWrapper}>
             <div className={styles.sectionContainer}>
                 <h2>Popular destinations</h2>
-                <div className={styles.cardsContainer}>
+                <ul className={styles.cardsContainer}>
                     {DESTINATIONS.map((destination) => (
-                        <DestinationCard key={destination.id} {...destination} />
+                        <li key={destination.id}>
+                            <DestinationCard {...destination} />
+                        </li>
                     ))}
-                </div>
+                </ul>
             </div>
         </section>
     );
