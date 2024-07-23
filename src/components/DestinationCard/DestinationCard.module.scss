@@ -28,7 +28,7 @@
 
     & > p:first-of-type {
         color: $body;
-        @include textMedium(16px, 24px);
+        @include textMedium;
     }
     
     & > p:last-of-type {

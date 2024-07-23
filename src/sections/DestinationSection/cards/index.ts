@@ -1,9 +1,9 @@
-import bigSur from 'assets/images/bigSur.webp';
-import fortMayers from 'assets/images/fortMayers.webp';
-import madrid from 'assets/images/madrid.webp';
-import prescott from 'assets/images/prescott.webp';
-import stJoseph from 'assets/images/stJoseph.webp';
-import tucson from 'assets/images/tucson.webp';
+import bigSur from 'assets/images/destinations/bigSur.webp';
+import fortMayers from 'assets/images/destinations/fortMayers.webp';
+import madrid from 'assets/images/destinations/madrid.webp';
+import prescott from 'assets/images/destinations/prescott.webp';
+import stJoseph from 'assets/images/destinations/stJoseph.webp';
+import tucson from 'assets/images/destinations/tucson.webp';
 
 export const DESTINATIONS = [
     {id: 0, img: bigSur, title: 'Big Sur', subheading: 'California, USA'},

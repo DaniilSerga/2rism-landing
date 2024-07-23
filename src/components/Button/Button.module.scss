@@ -52,7 +52,7 @@
     border: 1px solid  $primary;
 
     & > svg {
-        fill: $white;
+        color: $white;
     }
 
     &:hover {
@@ -66,7 +66,7 @@
     border: 1px solid  $primaryMuted;
     
     & > svg {
-        fill: $primary;
+        color: $primary;
     }
 
     &:hover {

@@ -2,7 +2,7 @@ import React, {FC} from 'react';
 
 import {DestinationCard} from 'components';
 
-import {DESTINATIONS} from './constants';
+import {DESTINATIONS} from './cards';
 
 import styles from './DestinationSection.module.scss';
 

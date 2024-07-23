@@ -8,7 +8,7 @@
     line-height: $lineHeight;
 }
 
-@mixin textMedium($fontSize: 14px, $lineHeight: 20px) {
+@mixin textMedium($fontSize: 16px, $lineHeight: 24px) {
     font-size: $fontSize;
     font-weight: 500;
     line-height: $lineHeight;
