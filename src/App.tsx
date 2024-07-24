@@ -1,6 +1,7 @@
 import React from 'react';
 
 import {
+    AboutUsSection,
     ActivitiesSection,
     DestinationSection,
     HotelsSection,
@@ -16,6 +17,7 @@ function App() {
             <HotelsSection />
             <TipsSection />
             <ActivitiesSection />
+            <AboutUsSection />
         </main>
     );
 }
