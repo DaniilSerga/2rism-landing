@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/2rism-landing/static/css/main.290c0724.css",
-    "main.js": "/2rism-landing/static/js/main.f891bbe9.js",
+    "main.css": "/2rism-landing/static/css/main.b986062c.css",
+    "main.js": "/2rism-landing/static/js/main.e17e8b62.js",
     "static/media/prescott.webp": "/2rism-landing/static/media/prescott.e9d9f2d1e9e7d2871168.webp",
     "static/media/madrid.webp": "/2rism-landing/static/media/madrid.9f729d89b7eba1edbaac.webp",
     "static/media/brooklynBridge.webp": "/2rism-landing/static/media/brooklynBridge.029f16bb3e384927872d.webp",
     "static/media/stJoseph.webp": "/2rism-landing/static/media/stJoseph.057aebcd94bbb53be8e1.webp",
+    "static/media/hiking.webp": "/2rism-landing/static/media/hiking.d44885f7c40f511e972e.webp",
     "static/media/tucson.webp": "/2rism-landing/static/media/tucson.efced03ca14e5130a9e8.webp",
     "static/media/bigSur.webp": "/2rism-landing/static/media/bigSur.c70c5fbc13e24969687a.webp",
     "static/media/oberoiUdaivilas.webp": "/2rism-landing/static/media/oberoiUdaivilas.5de3a9520165b3d97a20.webp",
@@ -13,9 +14,12 @@
     "static/media/avatar.svg": "/2rism-landing/static/media/avatar.faefee2b7ef297c20dc65ef2dc7769c3.svg",
     "static/media/mainBackground.webp": "/2rism-landing/static/media/mainBackground.45cdb6baad5ea842b3ad.webp",
     "static/media/beverlyHills.webp": "/2rism-landing/static/media/beverlyHills.3ca209d8acd7af672256.webp",
+    "static/media/sailing.webp": "/2rism-landing/static/media/sailing.504c9a3e401b021bd9ef.webp",
     "static/media/eastVillage.webp": "/2rism-landing/static/media/eastVillage.e480e7bd0fef43cd5c49.webp",
+    "static/media/skiing.webp": "/2rism-landing/static/media/skiing.e3f4dd603a174e1b9a43.webp",
     "static/media/grandHotelTremezzo.webp": "/2rism-landing/static/media/grandHotelTremezzo.d8c1740684926ada6bf1.webp",
     "static/media/monasteroHotel.webp": "/2rism-landing/static/media/monasteroHotel.919177f31f654c484bc4.webp",
+    "static/media/climbing.webp": "/2rism-landing/static/media/climbing.40fc26b9ea1a00ecb3b0.webp",
     "static/media/logo.svg": "/2rism-landing/static/media/logo.7edf3ded70823b53176d45d365642f4a.svg",
     "static/media/bike.svg": "/2rism-landing/static/media/bike.443deac2438906ae151184efc6f21519.svg",
     "static/media/mapPin.svg": "/2rism-landing/static/media/mapPin.8ca4560e6c03b9a355a865bbb41b7826.svg",
@@ -28,11 +32,11 @@
     "static/media/starEmpty.svg": "/2rism-landing/static/media/starEmpty.57864bed868cf391d19ebe8ddefd4324.svg",
     "static/media/starFilled.svg": "/2rism-landing/static/media/starFilled.ef3e2405278f3854d723e4609e2e5534.svg",
     "static/media/arrow.svg": "/2rism-landing/static/media/arrow.555290126f36c458ed9890208acdeee3.svg",
-    "main.290c0724.css.map": "/2rism-landing/static/css/main.290c0724.css.map",
-    "main.f891bbe9.js.map": "/2rism-landing/static/js/main.f891bbe9.js.map"
+    "main.b986062c.css.map": "/2rism-landing/static/css/main.b986062c.css.map",
+    "main.e17e8b62.js.map": "/2rism-landing/static/js/main.e17e8b62.js.map"
   },
   "entrypoints": [
-    "static/css/main.290c0724.css",
-    "static/js/main.f891bbe9.js"
+    "static/css/main.b986062c.css",
+    "static/js/main.e17e8b62.js"
   ]
 }
