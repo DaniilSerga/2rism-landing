@@ -1,6 +1,12 @@
 import React from 'react';
 
-import {DestinationSection, HotelsSection, MainSection, TipsSection} from 'sections';
+import {
+    ActivitiesSection,
+    DestinationSection,
+    HotelsSection,
+    MainSection,
+    TipsSection,
+} from 'sections';
 
 function App() {
     return (
@@ -9,6 +15,7 @@ function App() {
             <DestinationSection />
             <HotelsSection />
             <TipsSection />
+            <ActivitiesSection />
         </main>
     );
 }

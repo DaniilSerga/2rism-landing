@@ -1,3 +1,4 @@
+import {ActivityCard} from './ActivityCard';
 import {Button} from './Button';
 import {DestinationCard} from './DestinationCard';
 import {Header} from './Header';
@@ -6,4 +7,4 @@ import {Rating} from './Rating';
 import {SearchRow} from './SearchRow';
 import {TravelTipCard} from './TravelTipCard';
 
-export {Button, DestinationCard, Header, HotelCard, Rating, SearchRow, TravelTipCard};
+export {ActivityCard, Button, DestinationCard, Header, HotelCard, Rating, SearchRow, TravelTipCard};

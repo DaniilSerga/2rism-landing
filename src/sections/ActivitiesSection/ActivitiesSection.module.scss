@@ -1,0 +1,35 @@
+@import 'styles/colors';
+@import 'styles/mixins';
+
+.sectionWrapper {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+
+.sectionContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    @include maxWidth;
+}
+
+.sectionHeading {
+    display: grid;
+    grid-template-columns: 1fr auto;
+
+    & > h2 {
+        color: $body;
+        @include textHeading()
+    }
+
+    & > button {
+        align-self: flex-start;
+    }
+}
+
+.activitiesList {
+    display: flex;
+    gap: 32px;
+    list-style-type: none;
+}
