@@ -1,5 +1,6 @@
 import React from 'react';
 
+import {Footer} from 'components';
 import {
     AboutUsSection,
     ActivitiesSection,
@@ -18,6 +19,7 @@ function App() {
             <TipsSection />
             <ActivitiesSection />
             <AboutUsSection />
+            <Footer />
         </main>
     );
 }

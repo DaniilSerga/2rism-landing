@@ -11,6 +11,10 @@
     display: grid;
     grid-template-columns: auto 1fr auto;
     @include maxWidth;
+
+    & > svg {
+        color: $white;
+    }
 }
 
 .navbar {

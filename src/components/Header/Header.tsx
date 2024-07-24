@@ -1,18 +1,15 @@
-import avatar from "assets/icons/avatar.svg";
-import logo from "assets/icons/logo.svg";
-import React, {FC} from "react";
+import React, {FC} from 'react';
 
-import styles from "./Header.module.scss";
+import avatar from 'assets/icons/avatar.svg';
+import {ReactComponent as Logo} from 'assets/icons/logo.svg';
+
+import styles from './Header.module.scss';
 
 const Header: FC = () => {
     return (
         <header className={styles.headerWrapper}>
             <div className={styles.headerContainer}>
-                {/* logo */}
-                <div>
-                    <img src={logo} alt="" />
-                </div>
-                {/* navbar */}
+                <Logo />
                 <nav className={styles.navbar}>
                     <a href="/">home</a>
                     <a href="/">hotels</a>
@@ -22,7 +19,6 @@ const Header: FC = () => {
                     <a href="/">activities</a>
                     <a href="/">contact</a>
                 </nav>
-                {/* avatar */}
                 <div className={styles.avatarWrapper}>
                     <div className={styles.avatarDescription}>
                         <p>Holla,</p>
