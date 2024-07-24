@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/2rism-landing/static/css/main.b986062c.css",
-    "main.js": "/2rism-landing/static/js/main.e17e8b62.js",
+    "main.css": "/2rism-landing/static/css/main.12f36348.css",
+    "main.js": "/2rism-landing/static/js/main.fbc6867e.js",
     "static/media/prescott.webp": "/2rism-landing/static/media/prescott.e9d9f2d1e9e7d2871168.webp",
     "static/media/madrid.webp": "/2rism-landing/static/media/madrid.9f729d89b7eba1edbaac.webp",
     "static/media/brooklynBridge.webp": "/2rism-landing/static/media/brooklynBridge.029f16bb3e384927872d.webp",
@@ -19,24 +19,30 @@
     "static/media/skiing.webp": "/2rism-landing/static/media/skiing.e3f4dd603a174e1b9a43.webp",
     "static/media/grandHotelTremezzo.webp": "/2rism-landing/static/media/grandHotelTremezzo.d8c1740684926ada6bf1.webp",
     "static/media/monasteroHotel.webp": "/2rism-landing/static/media/monasteroHotel.919177f31f654c484bc4.webp",
+    "static/media/aboutUs.webp": "/2rism-landing/static/media/aboutUs.a27bc08b9b369ca9675e.webp",
     "static/media/climbing.webp": "/2rism-landing/static/media/climbing.40fc26b9ea1a00ecb3b0.webp",
-    "static/media/logo.svg": "/2rism-landing/static/media/logo.7edf3ded70823b53176d45d365642f4a.svg",
+    "static/media/logo.svg": "/2rism-landing/static/media/logo.cb524a92fc1444dfe8c96236764875ee.svg",
     "static/media/bike.svg": "/2rism-landing/static/media/bike.443deac2438906ae151184efc6f21519.svg",
+    "static/media/instagram.svg": "/2rism-landing/static/media/instagram.7613d4214463a4dc2f1a0c38f3216ff4.svg",
     "static/media/mapPin.svg": "/2rism-landing/static/media/mapPin.8ca4560e6c03b9a355a865bbb41b7826.svg",
     "static/media/users.svg": "/2rism-landing/static/media/users.21818330db990360ff1883ef955eab8e.svg",
+    "static/media/twitter.svg": "/2rism-landing/static/media/twitter.7ddcff02393ff7e807e214809e71ce42.svg",
     "static/media/comment.svg": "/2rism-landing/static/media/comment.1196c9b023c5249d35cfddab47091a85.svg",
     "static/media/user.svg": "/2rism-landing/static/media/user.289112133d5d705205efe4dc942d1a8f.svg",
     "static/media/calendar.svg": "/2rism-landing/static/media/calendar.8972ae224fb9c176eb8aff0b7a25ea7c.svg",
     "index.html": "/2rism-landing/index.html",
+    "static/media/mail.svg": "/2rism-landing/static/media/mail.32ab0e7305c0534bb2dde1d98a2e990b.svg",
     "static/media/loupe.svg": "/2rism-landing/static/media/loupe.0f6d2e81e80c83919bd8887a06d21382.svg",
+    "static/media/facebook.svg": "/2rism-landing/static/media/facebook.0fec13a5b2c2a865acb15462a666183c.svg",
     "static/media/starEmpty.svg": "/2rism-landing/static/media/starEmpty.57864bed868cf391d19ebe8ddefd4324.svg",
+    "static/media/arrowVariant.svg": "/2rism-landing/static/media/arrowVariant.7ef63b1610418ee945c69904b8b7fb83.svg",
     "static/media/starFilled.svg": "/2rism-landing/static/media/starFilled.ef3e2405278f3854d723e4609e2e5534.svg",
     "static/media/arrow.svg": "/2rism-landing/static/media/arrow.555290126f36c458ed9890208acdeee3.svg",
-    "main.b986062c.css.map": "/2rism-landing/static/css/main.b986062c.css.map",
-    "main.e17e8b62.js.map": "/2rism-landing/static/js/main.e17e8b62.js.map"
+    "main.12f36348.css.map": "/2rism-landing/static/css/main.12f36348.css.map",
+    "main.fbc6867e.js.map": "/2rism-landing/static/js/main.fbc6867e.js.map"
   },
   "entrypoints": [
-    "static/css/main.b986062c.css",
-    "static/js/main.e17e8b62.js"
+    "static/css/main.12f36348.css",
+    "static/js/main.fbc6867e.js"
   ]
 }
