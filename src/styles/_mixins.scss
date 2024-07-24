@@ -1,0 +1,22 @@
+@mixin maxWidth() {
+    max-width: 1360px;
+    width: 100%;
+}
+
+@mixin textRegular($fontSize: 14px, $lineHeight: 20px) {
+    font-size: $fontSize;
+    line-height: $lineHeight;
+}
+
+@mixin textMedium($fontSize: 16px, $lineHeight: 24px) {
+    font-size: $fontSize;
+    font-weight: 500;
+    line-height: $lineHeight;
+}
+
+@mixin textHeading($fontSize: 32px, $lineHeight: 48px) {
+    font-size: $fontSize;
+    line-height: $lineHeight;
+    letter-spacing: 0.16px;
+    font-weight: 600;
+}

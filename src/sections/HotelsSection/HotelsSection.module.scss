@@ -1,0 +1,35 @@
+@import 'styles/colors';
+@import 'styles/mixins';
+
+.sectionWrapper {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+
+.sectionContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    @include maxWidth;
+}
+
+.hotelsList {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+
+.sectionHeading {
+    display: flex;
+    justify-content: space-between;
+
+    & > h2 {
+        color: $body;
+        @include textHeading;
+    }
+
+    & > button {
+        align-self: flex-start;
+    }
+}

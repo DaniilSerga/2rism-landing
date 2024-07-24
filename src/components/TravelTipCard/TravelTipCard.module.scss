@@ -1,0 +1,62 @@
+@import 'styles/colors';
+@import 'styles/mixins';
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 316px);
+    gap: 32px;
+    height: 380px;
+    padding-bottom: 120px;
+    overflow: hidden;
+}
+
+.descriptionContainer {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 16px;
+
+    & > h4 {
+        color: $body;
+        @include textHeading(24px, 36px)
+    }
+
+    & > p {
+        color: $bodyMuted;
+        @include textRegular(16px, 24px);
+    }
+}
+
+.coverContainer {
+    width: 100%;
+    height: 100%;
+    border-radius: 24px;
+    overflow: hidden;
+
+    & > img {
+        object-fit: cover;
+        width: 316px;
+        height: 100%;
+    }
+}
+
+.cardFooter {
+    display: flex;
+    justify-content: flex-start;
+    gap: 24px;
+}
+
+.postInfo {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    color: $bodyMuted;
+
+    & > svg {
+        width: 16px;
+        height: 16px;
+    }
+
+    & > p {
+        @include textRegular(12px, 26px);
+    }
+}

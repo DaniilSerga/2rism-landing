@@ -1,0 +1,26 @@
+@import 'styles/colors';
+@import 'styles/mixins';
+
+.sectionWrapper {
+    display: flex;
+    justify-content: center;
+    padding: 120px 0;
+}
+
+.sectionContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    @include maxWidth;
+
+    & > h2 {
+        @include textHeading;
+    }
+}
+
+.cardsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    list-style-type: none;
+}

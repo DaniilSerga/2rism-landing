@@ -1,0 +1,84 @@
+@import 'styles/colors';
+@import 'styles/mixins';
+
+.headerWrapper {
+    display: flex;
+    justify-content: center;
+    padding: 34px 0;
+}
+
+.headerContainer {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    @include maxWidth;
+
+    & > svg {
+        color: $white;
+    }
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+
+    & > a {
+        color: rgba($white, 0.7);
+        font-weight: 400;
+        text-decoration: none;
+        transition: color 0.2s;
+        @include textRegular(14px, 20px);
+    }
+
+    & > a:hover {
+        color: $white;
+    }
+}
+
+.avatarWrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.avatarDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: right;
+
+    & > p:first-of-type {
+        color: rgba($white, 0.5);
+        @include textMedium(14px, 20px);
+    }
+
+    & > p:last-of-type {
+        color: $white;
+        @include textMedium(14px, 20px);
+    }
+}
+
+.avatarCover {
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+
+    & > img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.notification {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 12px;
+    height: 12px;
+    background-color: $red;
+    border-radius: 6px;
+    border: 1px solid $body;
+    box-sizing: border-box;
+}
