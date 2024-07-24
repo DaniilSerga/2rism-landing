@@ -10,7 +10,7 @@
     font-size: 18px;
     line-height: 18px;
     font-weight: 400;
-    transition: 0.3s all;
+    transition: 0.2s all;
 }
 
 .buttonXl {
@@ -56,7 +56,14 @@
     }
 
     &:hover {
-        background-color: rgba($primary, 0.8);
+        color: $primary;
+        background-color: $primaryMuted;
+        border: 1px solid  $primaryMuted;
+        // background-color: rgba($primary, 0.8);
+
+        & > svg {
+            color: $primary;
+        }
     }
 }
 
@@ -70,6 +77,13 @@
     }
 
     &:hover {
-        color: rgba($primary, 0.8);
+        background-color: $primary;
+        border: 1px solid  $primary;
+        // color: rgba($primary, 0.8);
+        color: $white;
+
+        & > svg {
+            color: $white;
+        }
     }
 }
